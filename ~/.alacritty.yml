@@ -1,0 +1,30 @@
+window:
+  opacity: 1.0
+  decorations: None
+
+font:
+  normal:
+    family: LiberationMono
+    style: Regular
+    size: 16.0
+    glyph_offset:
+      x: 0
+      y: 0
+colors:
+  primary:
+    foreground: '0xabb2bf'
+    background: '0x292c34'
+
+cursor:
+  style:
+    shape: Block
+    blinking: Always
+
+key_bindings:
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: Plus, mods: Control, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: PageUp, action: ScrollHalfPageUp }
+  - { key: PageDown, action: ScrollHalfPageDown }
+  - { key: Q, mods: Control, action: Quit }
